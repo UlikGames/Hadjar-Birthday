@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UlikGames/HBD-Hadjar.git"
+    "url": "git+https://github.com/UlikGames/Hadjar-Birthday.git"
   },
   "keywords": [
     "Birthday"
@@ -16,9 +16,9 @@
   "author": "Ulik Najafov",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/UlikGames/HBD-Hadjar/issues"
+    "url": "https://github.com/UlikGames/Hadjar-Birthday/issues"
   },
-  "homepage": "https://github.com/UlikGames/HBD-Hadjar#readme",
+  "homepage": "https://github.com/UlikGames/Hadjar-Birthday#readme",
   "dependencies": {
     "http-server": "^0.12.3"
   }
