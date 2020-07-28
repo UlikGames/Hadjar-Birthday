@@ -9,6 +9,50 @@ body {
 	overflow-x:hidden;
 }
 
+.main--wrapper {
+  position: relative;
+  width: 30%;
+  height: 25px;
+  display: inline-block;
+}
+
+path {
+	stroke: white;
+}
+
+.sonraki {
+  display: inline-block;
+  margin: 0;
+}
+
+.main--wrapper .main-content {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart--container {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+.heart--container .heart {
+  stroke-width: 15px;
+  stroke-dasharray: 10;
+}
+.heart--container .heart-1 {
+  animation: draw 2s ease-in-out alternate infinite;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 500;
+  }
+}
+
 .container {
 	display: none;
 }
